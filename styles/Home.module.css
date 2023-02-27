@@ -97,7 +97,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +125,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
@@ -275,4 +275,110 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.main_section {
+  display: flex;
+  width: 80%;
+
+  justify-content: space-around;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0 0 10rem 0;
+  /* font-size: 1.5rem; */
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #8740b3;
+}
+
+.sub_section {
+  width: 50%;
+}
+
+.first_form {
+  padding: 10px;
+}
+
+.first_form_container {
+  padding: 10px;
+}
+
+.form_label {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #8740b3;
+}
+
+.form_input {
+  width: 60%;
+  padding: 9px;
+  color: black;
+  background: #fff;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 3px 2px 12px 9px #222222;
+}
+
+.form_label_owner {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #8740b3;
+  margin-left: 26px;
+}
+.second_form_container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.amount_label {
+  margin-right: 30px;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #8740b3;
+}
+
+.allowence_btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #8740b3, #b15d5d00);
+}
+
+.btn_wrapper {
+  text-align: center;
+  padding: 10px;
+}
+
+.home_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0 0 10rem 0;
+  /* font-size: 1.5rem; */
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #8740b3;
+  margin-left: 26px;
+}
+
+.result {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 10px;
+  font-family: monospace;
+  font-weight: 600;
 }
